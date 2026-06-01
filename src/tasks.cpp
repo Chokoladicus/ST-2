@@ -19,7 +19,7 @@ double calPool() {
     Circle road(pool_radius + concrete_pavement_width);
 
     double fencing_price = road.getFerence() * 2000.0;
-    double concrete_pavement_width_price = 
+    double concrete_pavement_width_price =
         (road.getArea() - pool.getArea()) * 1000.0;
     return fencing_price + concrete_pavement_width_price;
 }
