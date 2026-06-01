@@ -9,20 +9,20 @@ Circle::Circle(double rad) {
 
 void Circle::setRadius(double rad) {
     radius = rad;
-    ference = 2 * M_PI * rad;
+    ference = 2.00 * M_PI * radius;
     area = M_PI * radius * radius;
 }
 
 void Circle::setFerence(double fer) {
     ference = fer;
-    radius = ference/(M_PI*2);
-    area = (ference*ference)/(4*M_PI);
+    radius = ference / (M_PI * 2.00);
+    area = (ference * ference) / (4.00 * M_PI);
 }
 
 void Circle::setArea(double ar) {
     area = ar;
-    radius = std::sqrt(area/M_PI);
-    ference = 2 * M_PI * radius;
+    radius = std::sqrt(area / M_PI);
+    ference = 2.00 * M_PI * radius;
 }
 
 double Circle::getArea() const {

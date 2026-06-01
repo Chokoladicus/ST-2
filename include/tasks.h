@@ -2,8 +2,8 @@
 #ifndef INCLUDE_TASKS_H_
 #define INCLUDE_TASKS_H_
 
-double Rope();
+double calEarthAndRope();
 
-double Pool();
+double calPool();
 
 #endif // INCLUDE_TASKS_H_
