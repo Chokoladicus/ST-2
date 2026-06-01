@@ -11,7 +11,7 @@ class Circle {
 
  public:
   explicit Circle(double radius);
-  
+
   void setRadius(double radius);
   void setFerence(double ference);
   void setArea(double area);
